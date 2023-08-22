@@ -7,7 +7,22 @@
 
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+final class ModelData: ObservableObject {
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+    @Published var profile = Profile.default
+    
+    var hikes: [Hike] = load("hikeData.json")
+    
+    var categories: [String: [Landmark]] {
+        Dictionary(grouping: landmarks) { e in
+            e.category.rawValue
+        }
+    }
+    
+    var features: [Landmark] {
+        landmarks.filter { $0.isFeatured }
+    }
+}
 
 func load<T:Decodable>(_ fileName: String) -> T {
     let data: Data
