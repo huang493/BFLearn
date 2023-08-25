@@ -12,7 +12,7 @@ struct CategoryHome: View {
     @State private var showingProfile = false
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List(content: {
                 PageView(pages: modelData.features.map({ landmark in
                     FeatureCard(landmark: landmark)

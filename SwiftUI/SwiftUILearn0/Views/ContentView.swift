@@ -9,11 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var modelData = ModelData()
-    @State private var selection: Tab = .featured
+    @State private var selection: Tab = .demo
     
     enum Tab {
         case featured
         case list
+        case demo
     }
     
     var body: some View {
@@ -28,8 +29,15 @@ struct ContentView: View {
                     Label("Feature", systemImage: "list.bullet")
                 })
                 .tag(Tab.list)
+            SwiftUIDemo()
+                .tabItem {
+                    Label("Demo", systemImage: "figure.cooldown")
+                }
         })
-            .environmentObject(modelData)
+        .onAppear{
+            CombineDemo.action()
+        }
+        .environmentObject(modelData)
     }
 }
 

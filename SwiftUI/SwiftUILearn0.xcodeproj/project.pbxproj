@@ -46,6 +46,13 @@
 		484108DD2A9446980092A4AE /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108DC2A9446980092A4AE /* FeatureCard.swift */; };
 		484108DF2A944A490092A4AE /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108DE2A944A490092A4AE /* PageView.swift */; };
 		484108E12A945AD30092A4AE /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108E02A945AD30092A4AE /* PageControl.swift */; };
+		484108E32A948E3E0092A4AE /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108E22A948E3E0092A4AE /* DemoView.swift */; };
+		484108E52A95D34D0092A4AE /* CombineLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108E42A95D34D0092A4AE /* CombineLL.swift */; };
+		484108E72A96E6E40092A4AE /* DemoView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108E62A96E6E40092A4AE /* DemoView1.swift */; };
+		484108E92A9701CA0092A4AE /* DemoView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108E82A9701CA0092A4AE /* DemoView2.swift */; };
+		484108EB2A9701D50092A4AE /* DemoView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108EA2A9701D50092A4AE /* DemoView3.swift */; };
+		484108ED2A97026F0092A4AE /* NavigationPathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108EC2A97026F0092A4AE /* NavigationPathManager.swift */; };
+		484108EF2A9838EA0092A4AE /* SwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108EE2A9838EA0092A4AE /* SwiftUIDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +115,13 @@
 		484108DC2A9446980092A4AE /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		484108DE2A944A490092A4AE /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		484108E02A945AD30092A4AE /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		484108E22A948E3E0092A4AE /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		484108E42A95D34D0092A4AE /* CombineLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLL.swift; sourceTree = "<group>"; };
+		484108E62A96E6E40092A4AE /* DemoView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView1.swift; sourceTree = "<group>"; };
+		484108E82A9701CA0092A4AE /* DemoView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView2.swift; sourceTree = "<group>"; };
+		484108EA2A9701D50092A4AE /* DemoView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView3.swift; sourceTree = "<group>"; };
+		484108EC2A97026F0092A4AE /* NavigationPathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathManager.swift; sourceTree = "<group>"; };
+		484108EE2A9838EA0092A4AE /* SwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +174,7 @@
 			children = (
 				4841086C2A8F0C1C0092A4AE /* SwiftUILearn0App.swift */,
 				484108702A8F0C1D0092A4AE /* Assets.xcassets */,
+				484108E42A95D34D0092A4AE /* CombineLL.swift */,
 				484108C62A934AD10092A4AE /* Categories */,
 				484108A02A8F49C70092A4AE /* Views */,
 				484108A12A8F49DB0092A4AE /* Models */,
@@ -198,6 +213,12 @@
 			isa = PBXGroup;
 			children = (
 				4841086E2A8F0C1C0092A4AE /* ContentView.swift */,
+				484108EC2A97026F0092A4AE /* NavigationPathManager.swift */,
+				484108EE2A9838EA0092A4AE /* SwiftUIDemo.swift */,
+				484108E22A948E3E0092A4AE /* DemoView.swift */,
+				484108E62A96E6E40092A4AE /* DemoView1.swift */,
+				484108E82A9701CA0092A4AE /* DemoView2.swift */,
+				484108EA2A9701D50092A4AE /* DemoView3.swift */,
 				484108A52A8F4FD40092A4AE /* LandmarkList.swift */,
 				484108962A8F3E280092A4AE /* CircleImage.swift */,
 				484108982A8F405F0092A4AE /* MapView.swift */,
@@ -419,10 +440,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484108EB2A9701D50092A4AE /* DemoView3.swift in Sources */,
 				484108CA2A934E670092A4AE /* CategoryRow.swift in Sources */,
+				484108E52A95D34D0092A4AE /* CombineLL.swift in Sources */,
 				484108CE2A935EBA0092A4AE /* Profile.swift in Sources */,
 				4841086F2A8F0C1C0092A4AE /* ContentView.swift in Sources */,
+				484108E92A9701CA0092A4AE /* DemoView2.swift in Sources */,
 				484108C82A934AE20092A4AE /* CategoryHome.swift in Sources */,
+				484108E72A96E6E40092A4AE /* DemoView1.swift in Sources */,
 				484108DD2A9446980092A4AE /* FeatureCard.swift in Sources */,
 				484108C32A933CBA0092A4AE /* HikeGraph.swift in Sources */,
 				484108B42A9331900092A4AE /* Badge.swift in Sources */,
@@ -441,15 +466,18 @@
 				484108DF2A944A490092A4AE /* PageView.swift in Sources */,
 				484108B02A932FE40092A4AE /* BadgeSymbol.swift in Sources */,
 				484108D82A936F480092A4AE /* ProfileEditor.swift in Sources */,
+				484108ED2A97026F0092A4AE /* NavigationPathManager.swift in Sources */,
 				484108A62A8F4FD40092A4AE /* LandmarkList.swift in Sources */,
 				484108C52A933CBA0092A4AE /* HikeView.swift in Sources */,
 				484108A82A8F527E0092A4AE /* LandmarkDetail.swift in Sources */,
 				484108DB2A9441E70092A4AE /* PageViewController.swift in Sources */,
 				484108AE2A92FB9E0092A4AE /* BadgeBackground.swift in Sources */,
+				484108EF2A9838EA0092A4AE /* SwiftUIDemo.swift in Sources */,
 				484108D62A9361940092A4AE /* HikeBadge.swift in Sources */,
 				484108972A8F3E280092A4AE /* CircleImage.swift in Sources */,
 				4841089D2A8F45E60092A4AE /* Landmark.swift in Sources */,
 				484108A42A8F4A030092A4AE /* LandmarkRow.swift in Sources */,
+				484108E32A948E3E0092A4AE /* DemoView.swift in Sources */,
 				4841089F2A8F48140092A4AE /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
