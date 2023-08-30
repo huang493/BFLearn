@@ -15,6 +15,9 @@ struct SwiftUIDemo: View {
                     NavigationLink("弹窗") {
                         DemoView2()
                     }
+                    NavigationLink("动画与过渡") {
+                        DemoView4()
+                    }
                     NavigationLink("other") {
                         DemoView()
                     }

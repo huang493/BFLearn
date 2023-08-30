@@ -53,6 +53,9 @@
 		484108EB2A9701D50092A4AE /* DemoView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108EA2A9701D50092A4AE /* DemoView3.swift */; };
 		484108ED2A97026F0092A4AE /* NavigationPathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108EC2A97026F0092A4AE /* NavigationPathManager.swift */; };
 		484108EF2A9838EA0092A4AE /* SwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108EE2A9838EA0092A4AE /* SwiftUIDemo.swift */; };
+		484108F22A9898E10092A4AE /* DemoView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484108F12A9898E10092A4AE /* DemoView4.swift */; };
+		486C5BA62A9C2CCF00669C48 /* DemoView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C5BA52A9C2CCF00669C48 /* DemoView5.swift */; };
+		486C5BA82A9C72E800669C48 /* DemoView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C5BA72A9C72E800669C48 /* DemoView6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +125,9 @@
 		484108EA2A9701D50092A4AE /* DemoView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView3.swift; sourceTree = "<group>"; };
 		484108EC2A97026F0092A4AE /* NavigationPathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathManager.swift; sourceTree = "<group>"; };
 		484108EE2A9838EA0092A4AE /* SwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemo.swift; sourceTree = "<group>"; };
+		484108F12A9898E10092A4AE /* DemoView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView4.swift; sourceTree = "<group>"; };
+		486C5BA52A9C2CCF00669C48 /* DemoView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView5.swift; sourceTree = "<group>"; };
+		486C5BA72A9C72E800669C48 /* DemoView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,12 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				4841086E2A8F0C1C0092A4AE /* ContentView.swift */,
-				484108EC2A97026F0092A4AE /* NavigationPathManager.swift */,
-				484108EE2A9838EA0092A4AE /* SwiftUIDemo.swift */,
-				484108E22A948E3E0092A4AE /* DemoView.swift */,
-				484108E62A96E6E40092A4AE /* DemoView1.swift */,
-				484108E82A9701CA0092A4AE /* DemoView2.swift */,
-				484108EA2A9701D50092A4AE /* DemoView3.swift */,
+				484108F02A9852450092A4AE /* Demo */,
 				484108A52A8F4FD40092A4AE /* LandmarkList.swift */,
 				484108962A8F3E280092A4AE /* CircleImage.swift */,
 				484108982A8F405F0092A4AE /* MapView.swift */,
@@ -306,6 +307,22 @@
 				484108E02A945AD30092A4AE /* PageControl.swift */,
 			);
 			name = PageView;
+			sourceTree = "<group>";
+		};
+		484108F02A9852450092A4AE /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				484108EC2A97026F0092A4AE /* NavigationPathManager.swift */,
+				484108EE2A9838EA0092A4AE /* SwiftUIDemo.swift */,
+				484108E22A948E3E0092A4AE /* DemoView.swift */,
+				484108E62A96E6E40092A4AE /* DemoView1.swift */,
+				484108E82A9701CA0092A4AE /* DemoView2.swift */,
+				484108EA2A9701D50092A4AE /* DemoView3.swift */,
+				484108F12A9898E10092A4AE /* DemoView4.swift */,
+				486C5BA52A9C2CCF00669C48 /* DemoView5.swift */,
+				486C5BA72A9C72E800669C48 /* DemoView6.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,10 +459,12 @@
 			files = (
 				484108EB2A9701D50092A4AE /* DemoView3.swift in Sources */,
 				484108CA2A934E670092A4AE /* CategoryRow.swift in Sources */,
+				486C5BA82A9C72E800669C48 /* DemoView6.swift in Sources */,
 				484108E52A95D34D0092A4AE /* CombineLL.swift in Sources */,
 				484108CE2A935EBA0092A4AE /* Profile.swift in Sources */,
 				4841086F2A8F0C1C0092A4AE /* ContentView.swift in Sources */,
 				484108E92A9701CA0092A4AE /* DemoView2.swift in Sources */,
+				484108F22A9898E10092A4AE /* DemoView4.swift in Sources */,
 				484108C82A934AE20092A4AE /* CategoryHome.swift in Sources */,
 				484108E72A96E6E40092A4AE /* DemoView1.swift in Sources */,
 				484108DD2A9446980092A4AE /* FeatureCard.swift in Sources */,
@@ -464,6 +483,7 @@
 				484108BA2A933AD10092A4AE /* Hike.swift in Sources */,
 				484108B22A9330CB0092A4AE /* RotatedBadgeSymbol.swift in Sources */,
 				484108DF2A944A490092A4AE /* PageView.swift in Sources */,
+				486C5BA62A9C2CCF00669C48 /* DemoView5.swift in Sources */,
 				484108B02A932FE40092A4AE /* BadgeSymbol.swift in Sources */,
 				484108D82A936F480092A4AE /* ProfileEditor.swift in Sources */,
 				484108ED2A97026F0092A4AE /* NavigationPathManager.swift in Sources */,
