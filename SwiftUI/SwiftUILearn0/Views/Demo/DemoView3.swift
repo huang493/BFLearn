@@ -54,20 +54,25 @@ struct DemoView3: View {
     }
     
     var body: some View {
-        VStack{
-            Text("手势状态").onTapGesture {
-                completedLongPress = false
-            }
-            Spacer()
-                .frame(height: 40)
-            Circle()
-                .fill(color)
-                .frame(width: 200, height: 200)
-                .offset(CGSize(width: position.width + dragOffSet.width,
-                               height: position.height + dragOffSet.height))
-                .gesture(longPress.sequenced(before: dragGes), including: .all)
+        GeometryReader(content: { geometry in
+            VStack{
+                Text("手势状态").onTapGesture {
+                    completedLongPress = false
+                }
+                Spacer()
+                    .frame(height: 40)
+                Circle()
+                    .fill(color)
+                    .frame(width: 200, height: 200)
+                    .offset({
+                        return CGSize(width: position.width + dragOffSet.width,
+                                       height: position.height + dragOffSet.height)
+                    }())
+                    .border(.red)
+                    .gesture(longPress.sequenced(before: dragGes), including: .all)
 
-        }
+            }
+        })
     }
 }
 

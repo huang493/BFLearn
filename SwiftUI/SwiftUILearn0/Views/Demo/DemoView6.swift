@@ -21,13 +21,11 @@ struct DemoView6: View {
                     .matchedGeometryEffect(id: animationId, in: change)
                     .foregroundColor(.green)
                     .ignoresSafeArea()
-                    .transition(.push(from: .leading))
-                    .animation(Animation.linear)
+                    .transition(.opacity)
                     .onTapGesture {
-//                        withAnimation {
+                        withAnimation {
                             expand.toggle()
-//                        }
-                        
+                        }
                     }
             } else {
                 Circle()
@@ -36,11 +34,10 @@ struct DemoView6: View {
                     .foregroundColor(.orange)
                     .transition(.opacity)
                     .padding()
-                    .animation(Animation.linear)
                     .onTapGesture {
-//                        withAnimation {
+                        withAnimation {
                             expand.toggle()
-//                        }
+                        }
                     }
             }
         }

@@ -18,8 +18,17 @@ struct SwiftUIDemo: View {
                     NavigationLink("动画与过渡") {
                         DemoView4()
                     }
+                    NavigationLink("Gesture") {
+                        DemoView3()
+                    }
                     NavigationLink("other") {
                         DemoView()
+                    }
+                    NavigationLink("Layout protocol & Animatable") {
+                        DemoView7()
+                    }
+                    NavigationLink("动画总结") {
+                        DemoView8()
                     }
                 }
             }
